@@ -87,7 +87,7 @@ function readMeMaker(data) {
 
     ## Questions
 
-    Github Username: ${data.questions}
+    Github Username: ${data.github}
 
     ## Links 
     
