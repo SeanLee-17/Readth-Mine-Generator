@@ -45,7 +45,7 @@ function licenseOnReadMe(license) {
     }
 }
 
-function readMeMaker(data) {
+function generateMarkdown(data) {
     return `
     # ${data.title}
 
@@ -83,7 +83,7 @@ function readMeMaker(data) {
 
     ## Test
 
-    ${data.tests}
+    ${data.testing}
 
     ## Questions
 
@@ -96,4 +96,4 @@ function readMeMaker(data) {
     `;
 }
 
-module.exports = readmemaker;
+module.exports = generateMarkdown;
