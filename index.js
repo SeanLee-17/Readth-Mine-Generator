@@ -27,12 +27,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Who contributed your work?: ',
+        message: 'Who contributed to your work?: ',
         name: 'contributing',
     },
     {
         type: 'input',
-        message: 'Who can you test your work?: ',
+        message: 'Who can test your work?: ',
         name: 'testing',
     },
     {
